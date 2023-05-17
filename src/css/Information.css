@@ -1,0 +1,120 @@
+.top-img-schedule{
+    background-image: url("../img/swing3.jpg");
+  }
+
+  .top-img-venue{
+    background-image: url("../img/ringshot.jpg");
+  }
+
+  .top-img-gift{
+    background-image: url("../img/bikelaugh.jpg");
+    height: 400px;
+  }
+
+  .top-img-rsvp{
+    background-image: url("../img/shesaidyes.jpg");
+    height: 380px;
+  }
+
+  .schedule-pic{
+    max-width: 300px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .schedule-content{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .information-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 120px 0 0;
+  }
+
+  .information-header{
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+
+  .information-text{
+    color: rgb(5, 28, 44);
+    font-family: JosefinSans-Regular;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-size: 15.2px;
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 325px;
+    line-height: 32px;
+  }
+
+  .venue-header{
+    margin: 20px 0;
+    font-size: 70px;
+  }
+
+  .venue-content{
+    display: flex;
+    justify-content: center;
+  }
+
+  .venue-block{
+    text-align: center;
+    height: 300px;
+    margin:0 60px
+  }
+
+  .venue-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .venue-directions{
+    color: rgb(18, 73, 224);
+    font-family: JosefinSans-Regular;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-size: 20px;
+  }
+
+  .google-maps{
+    margin: 20px;
+    width: 90vw;
+    max-width: 1200px;
+    max-height: 500px;
+    height: 50vw;
+  }
+
+  .rsvp-text{
+    max-width: 510px;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .rsvp-text{
+      max-width: 87%;
+    }
+
+    .schedule-pic {
+      max-width: 75%;
+    }
+
+    .schedule-content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .information-left {
+      margin: 0 0 0 0;
+    }
+
+    .venue-content {
+      flex-direction: column;
+    }
+  }

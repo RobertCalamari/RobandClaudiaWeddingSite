@@ -1,0 +1,47 @@
+.top-img-pics{
+    background-image: url("../img/carriage2.jpg");
+  }
+
+  .collage-pic {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+    aspect-ratio: 1 / 1;
+    object-position: center; 
+  }
+
+  .collage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
+  .collage-boundary{
+    width: 70%;
+    max-width: 950px;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%; */
+  }
+
+  .collage-pic-wrapper{
+    width: 32%;
+    display: inline-block;
+    padding: 1px 2px;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .collage-pic-wrapper{
+      width: 100%;
+      display: block;
+  }
+
+  .collage-boundary{
+    width: 90%;
+  }
+
+
+}

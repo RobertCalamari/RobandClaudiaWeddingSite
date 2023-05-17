@@ -1,0 +1,172 @@
+.greeting-img{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../img/handhold4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.greeting-date{
+    display: flex;
+}
+
+.greeting-date-title{
+    font-size: 20px;
+    margin: 0px 5px;
+}
+
+.greeting-date-subtitle{
+    font-size: 23px;
+    margin: 0px 5px;
+    color: white;
+}
+
+.greeting-logo {
+    height: 10vw;
+    min-height: 70px;
+    margin: 30px 0;
+}
+
+.hs-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.white-block{
+    background-color: white;
+}
+
+.ww-container{
+    width: 100%;
+    max-width: 850px;
+    padding: 70px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ww-block{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ww-simple-text{
+    color: black;
+    padding-bottom: 30px;
+    font-size: 19px;    
+}
+
+.ww-bold-text{
+    padding-bottom: 30px;
+    font-size: 34px;    
+    text-align: center;
+}
+
+.ww-info-text{
+    padding-bottom: 30px;
+    font-size: 20px;    
+    text-align: center;
+}
+
+.ww-more-info a{
+    color: var(--main-color-text-one);
+}
+
+.acc-block{
+    color: black;
+    text-align: center;
+}
+
+.person-img {
+    height: 200px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.person-info-text{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.party-member{
+    margin: 16px 8px;
+}
+
+.party-img {
+    height: 150px;
+    margin: auto;
+}
+
+.party-desc {
+    text-align: center;
+}
+
+.party-block{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.people-block{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.rsvp-button{
+    padding: 21px 34px;
+    background-color: var(--main-color-text-one);
+    transition-duration: 400ms;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.rsvp-button:hover {
+    background-color: #f0a397;
+    transition-duration: 400ms;
+  }
+
+.clock-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.special-day-text{
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.style-text{
+    color: rgb(5, 28, 44);
+    font-family: JosefinSans-Regular;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    line-height: 21px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 960px) {
+    .special-day-text{
+        font-size: 42px !important;
+    }
+
+}
